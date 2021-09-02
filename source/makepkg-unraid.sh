@@ -8,7 +8,7 @@ mkdir -p $TMP_DIR/$VERSION
 cd $TMP_DIR/$VERSION
 cp --parents -R $BASE_DIR/$PLUGIN_NAME/ $TMP_DIR/$VERSION/
 mkdir -p $TMP_DIR/$VERSION/usr/bin
-wget -q -nc -O $TMP_DIR/$VERSION/usr/bin/prometheus_smartctl_exporter https://raw.githubusercontent.com/ich777/unraid-prometheus_smartctl_exporter/master/source/app/prometheus_smartctl_exporter
+wget -q -nc -O $TMP_DIR/$VERSION/usr/bin/prometheus_smartctl_exporter https://raw.githubusercontent.com/ItsEcholot/unraid-prometheus_smartctl_exporter/master/source/app/prometheus_smartctl_exporter
 chmod -R 755 $TMP_DIR/$VERSION/
 rm $TMP_DIR/$VERSION/$BASE_DIR/$PLUGIN_NAME/README.md
 makepkg -l y -c y $TMP_DIR/$PLUGIN_NAME-$VERSION.txz

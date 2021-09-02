@@ -69,6 +69,8 @@ unsafe_shutdown_count
 workld_host_reads_perc
 workld_media_wear_indic
 workload_minutes
+ssd_life_left
+lifetime_writes_gib
 SMARTMONATTRS
 )"
 smartmon_attrs="$(echo ${smartmon_attrs} | xargs | tr ' ' '|')"
