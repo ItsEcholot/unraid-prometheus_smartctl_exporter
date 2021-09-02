@@ -2,10 +2,10 @@
 <!DOCTYPE PLUGIN [
   <!ENTITY name      "prometheus_smartctl_exporter">
   <!ENTITY author    "ich777">
-  <!ENTITY version   "2021.09.02">
+  <!ENTITY version   "2021.09.03">
   <!ENTITY gitURL    "https://github.com/ItsEcholot/unraid-&name;/raw/master">
   <!ENTITY pluginURL "&gitURL;/&name;.plg">
-  <!ENTITY md5       "39d856b1800b90f15454707558db93bc">
+  <!ENTITY md5       "54b2a75e058b61e11f44079c2ac083aa">
   <!ENTITY plugin    "/boot/config/plugins/&name;">
   <!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
 ]>
@@ -13,6 +13,9 @@
 <PLUGIN  name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" min="6.9.0" support="https://forums.unraid.net/topic/110995-plugin-prometheus-unraid-plugins/" icon="fa-medkit">
 
 <CHANGES>
+
+###2021.09.02
+- Add unknown SMART attributes
 
 ###2021.09.02
 - Added additional SMART attributes for PNY SSDs
