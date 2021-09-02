@@ -71,6 +71,7 @@ workld_media_wear_indic
 workload_minutes
 ssd_life_left
 lifetime_writes_gib
+unknown_attribute
 SMARTMONATTRS
 )"
 smartmon_attrs="$(echo ${smartmon_attrs} | xargs | tr ' ' '|')"
